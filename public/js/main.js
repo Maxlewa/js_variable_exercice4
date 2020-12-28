@@ -1,3 +1,11 @@
+// EXO 3
+
+// let reponse = prompt('ton prénom ?')
+// console.log(reponse);
+// alert(reponse);
+
+// EXO 4
+
 // 1
 
 // let nom = "Lemaire"
