@@ -18,17 +18,20 @@
 
 // let nom = "Lemaire"
 // let prenom = "Maxence"
-// let villDepart = "Bruxelles"
-// let villDestination = "Montréal"
+// let villeDepart = "Bruxelles"
+// let villeDestination = "Montréal"
 
-// console.log("Le voyage de " + villDepart + " vers " + villDestination + " a été enregistré au nom de " + nom + " " + prenom);
-// alert("Le voyage de " + villDepart + " vers " + villDestination + " a été enregistré au nom de " + nom + " " + prenom);
+// console.log("Le voyage de " + villeDepart + " vers " + villeDestination + " a été enregistré au nom de " + nom + " " + prenom);
+// alert("Le voyage de " + villeDepart + " vers " + villeDestination + " a été enregistré au nom de " + nom + " " + prenom);
 
 // 2B
 
 let nom = prompt('Votre nom :')
 let prenom = prompt('Votre prénom :')
-let villDepart = prompt('Ville de départ ?')
-let villDestination = prompt("Ville d'arrivée ?")
+let villeDepart = prompt('Ville de départ ?')
+let villeDestination = prompt("Ville d'arrivée ?")
 
-alert("Le voyage de " + villDepart + " vers " + villDestination + " a été enregistré au nom de " + nom + " " + prenom);
+let phrase = `Le voyage de ${villeDepart} vers ${villeDestination} a été enregistré au nom de ${nom} ${prenom}`;
+console.log(phrase);
+
+alert("Le voyage de " + villeDepart + " vers " + villeDestination + " a été enregistré au nom de " + nom + " " + prenom);
